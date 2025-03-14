@@ -3,11 +3,11 @@
 {{ end }}
 
 <div class="page-columns">
-{{ range .Page.Columns }}
+    {{ range .Page.Columns }}
     <div class="page-column page-column-{{ .Size }}">
         {{ range .Widgets }}
-            {{ .Render }}
+        {{ .Render }}
         {{ end }}
     </div>
-{{ end }}
+    {{ end }}
 </div>

@@ -9,6 +9,7 @@ require (
 	github.com/tidwall/gjson v1.18.0
 	golang.org/x/text v0.22.0
 	gopkg.in/yaml.v3 v3.0.1
+	github.com/NYTimes/gziphandler v1.1.1
 )
 
 require (
